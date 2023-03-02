@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+main{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aqua;
+    padding: 10px;
+}
+
+
+*{
+    padding: 0 0;
+    margin: 0 0;
+}
+
+header{
+    background: rgb(44, 44, 44);
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.right-li{
+    float: right;
+    margin-left: auto !important;
+    background-color: whitesmoke;
+    color: black;
+}
+.left-li{
+    float: left;
+    margin-right: auto !important;
+    background-color: whitesmoke;
+    color: black;
+}
+
+li a{
+    display: block;
+    padding: 14px 16px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Fira Mono', monospace;
+
+}
+
+li a:hover{
+    background-color: #111;
+    color: #fff;
+}
+
+.header-content{
+    text-align: left;
+    padding-left: 25%;
+    padding-bottom: 20px;
+    padding-top: 25px;
+    font-family: "Dosis", sans-serif;
+}
+
+header h1{
+    font-size: calc(40px + (120 - 40) * ((100vw - 300px) / (1600 - 300)));
+    padding: 0px;
+    padding: 5px 5px;
+    margin: 0;
+}
+header h4{
+    font-size: 25px;
+    padding: 10px 10px;
+    margin: 0;
+}
+header h6{
+    font-size: calc(19px + (19 - 12) * ((100vw - 300px) / (1600 - 300)));
+    padding: 0px;
+    padding: 5px 5px;
+    margin: 0;
+    letter-spacing: 5px;
+}
+
+div {
+    align-items: center;
+    column-span: all;
+    /* padding: 0px 40px; */
+}
+
+#nav-bar-content {
+    padding: 0px 40px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    /* top: 0; Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
